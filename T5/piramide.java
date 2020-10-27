@@ -7,7 +7,7 @@ public class piramide {
     Scanner leer=new Scanner(System.in);
     h=leer.nextInt();
     
-    for (int j=0; j<=h; j++) {
+    for (int j=0; j<=(h-1); j++) {
       
       for (int k=h; k>=j; k--) {
         System.out.print(" ");
